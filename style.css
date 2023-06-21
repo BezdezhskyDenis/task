@@ -1,0 +1,13 @@
+.fade-in .card-body{
+        opacity: 1;
+        animation: fade 1s linear;
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0; background-color: red }
+    50% { opacity: 1 }
+  }
+
+  /* .card{
+    width: 150px;
+  } */
